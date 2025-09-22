@@ -49,7 +49,7 @@ function App() {
       console.log('Success:', data);
     } catch (error) {
       // setResponseMessage(`Error message: ${error.message}`);
-      console.error('Error:', error);
+       console.error('Error:', error);
     }
     //получаем список заметок.
     getHttpRequest();
